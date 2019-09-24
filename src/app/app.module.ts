@@ -31,7 +31,8 @@ import { UserComponent } from './user/user.component';
     MatInputModule,
     MatTableModule,
     MatMenuModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule     
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
