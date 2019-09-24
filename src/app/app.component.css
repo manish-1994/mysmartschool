@@ -13,3 +13,12 @@ a:hover{
 .space{
     padding-right:20px;
 }
+
+.change:hover{
+    background-color:white;
+    color:navy;
+    border:5px solid white;
+    border-radius:20px;
+    transition:0.4s;
+
+}
