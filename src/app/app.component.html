@@ -33,8 +33,8 @@
       <a mat-list-item [routerLink]="'/create-activity'"> Create Activity </a>
       <a  mat-list-item [routerLink]="'/login'"> <button mat-button [matMenuTriggerFor]="login">Login</button>
         <mat-menu #login>
-          <button mat-menu-item> <a mat-list-item [routerLink]="'/adminlogin'"> Admin login </a> </button>
-          <button mat-menu-item><a mat-list-item [routerLink]="'/userlogin'"> User login </a></button>
+          <button mat-menu-item> <a class="nodec" mat-list-item [routerLink]="'/adminlogin'"> Admin login </a> </button>
+          <button mat-menu-item><a class="nodec" mat-list-item [routerLink]="'/userlogin'"> User login </a></button>
         </mat-menu> </a>
       <a mat-list-item (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
       
