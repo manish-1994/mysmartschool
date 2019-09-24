@@ -9,3 +9,7 @@ a:hover{
     color:navy;
     transition:0.4s;
 }
+
+.space{
+    padding-right:20px;
+}
